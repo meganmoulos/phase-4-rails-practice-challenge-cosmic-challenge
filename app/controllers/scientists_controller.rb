@@ -7,7 +7,7 @@ class ScientistsController < ApplicationController
     end
 
     def show
-        render json: @scientist.planets
+        render json: @scientist
     end
 
     def create 
